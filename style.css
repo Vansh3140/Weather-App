@@ -1,0 +1,94 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+}
+
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    /* height: auto; */
+    margin:auto;
+    margin-top: 5rem;
+    border: 1px solid #b3b3b3;
+    border-radius: 3rem;
+    padding:2rem;
+    background-image: url('back6.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.humidity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wind-speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.climate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+header input{
+    width: 100%;
+    height: 2rem;
+    outline: none;
+    font-size: 0.8rem;
+    color: #525050;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid #b3b3b3;
+}
+
+
+header input:focus {
+    border: 1px solid #9c9dde;
+}
+
+header button{
+  width: 2.2rem;
+  height: 2rem;
+  cursor: pointer;
+  color: #9b9b9b;
+  border-radius: 50%;
+  margin-left: 0.4rem;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  border: 1px solid #b3b3b3;
+}
+
+header button:hover{
+    color: #fff;
+  background-color: #9c9dde;
+  border: 1px solid #9c9dde;
+}
+
+#city{
+    margin:1em;
+
+}
